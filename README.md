@@ -2,7 +2,16 @@
 There are no restrictions on deleting files in file_manage_control.php and file_class.php,
 so sending fixed data packets to file_manage_control.php can delete any file on the website.
 
+![图片](https://user-images.githubusercontent.com/40231393/195552507-f99bf93d-f17c-4f93-82f3-3b31aa0b4b4a.png)
+![图片](https://user-images.githubusercontent.com/40231393/195552579-a06ecffa-3a27-40f0-a0c0-ad7fda206832.png)
+![图片](https://user-images.githubusercontent.com/40231393/195552717-5c919517-9fdb-4d49-9e1b-572656016f86.png)
+
 After the administrator logs in, the following data packets are sent, activepath represents the directory, and filename represents the file name：
+
+![图片](https://user-images.githubusercontent.com/40231393/195552936-f738a5bc-285c-4cb0-afd7-2fc8eaf307bb.png)
+![图片](https://user-images.githubusercontent.com/40231393/195553123-a6d66c3a-6eb9-4cda-b584-43fb82645e42.png)
+![图片](https://user-images.githubusercontent.com/40231393/195553149-0223fa8c-629d-40bb-a90f-026dbbea5214.png)
+
 POC:
 
 POST /DedeCMSV6-master/src/admin/file_manage_control.php HTTP/1.1
